@@ -4,7 +4,9 @@ require_relative "../Fighter"
 class Blanka < Fighter
   def initialize ai
     super ai
-    @name = "Brian"
+
+    @name = "Blanka"
+
     @taunt = "Now you realize the powers I possess!"
 
     move1 = Move.new({ name: "Punch", damage: 5, hit_chance: 80 })
