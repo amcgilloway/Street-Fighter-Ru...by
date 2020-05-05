@@ -1,11 +1,11 @@
 require_relative "../Move"
 require_relative "../Fighter"
 
-class Blanka < Fighter
+class Guille < Fighter
   def initialize ai
     super ai
-    @name = "Blanko"
-    @taunt = "Now you realize the powers I possess!"
+    @name = "Guille"
+    @taunt = "I am the master of Git!"
 
     move1 = Move.new({ name: "Punch", damage: 5, hit_chance: 80 })
     move2 = Move.new({ name: "Cannonball", damage: 25, hit_chance: 60 })
