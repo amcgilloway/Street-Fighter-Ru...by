@@ -13,7 +13,7 @@ class Zagief < Fighter
 
     move2 = Move.new({ name: "Kick", damage: 10, hit_chance: 20 })
     
-    move3 = Move.new({name: "Haymaker", damage: 10, hit_chance:60})
+    move3 = Move.new({name: "Hurricane", damage: 10, hit_chance:60})
 
     @moves = [move1, move2, move3]
   end
